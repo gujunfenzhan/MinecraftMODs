@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ABA",
+    "B B",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot",
+      "data": 0
+    },
+    "B": {
+      "item": "minecraft:redstone",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "hmc:machine"
+  }
+}
