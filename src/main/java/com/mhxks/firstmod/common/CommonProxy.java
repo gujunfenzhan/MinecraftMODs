@@ -20,6 +20,8 @@ public class CommonProxy {
     @SubscribeEvent
     public void registerBlocks(RegistryEvent.Register<Block> reg) {
         reg.getRegistry().register(ModBlockLoader.IRON_COAL);
+        reg.getRegistry().register(ModBlockLoader.FLUID_DICHLORVOS);
+        reg.getRegistry().register(ModBlockLoader.FLUID_ICE_BLACK_TEA);
         //注册方块
     }
     //注册方块在物品下的状态

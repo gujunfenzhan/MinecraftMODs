@@ -11,7 +11,7 @@ public interface ModBlockLoader {
     Block EMERALD_COAL = new BlockEmeraldCoal().setRegistryName("emerald_coal_block").setUnlocalizedName("emeraldCoalBlock");
     Block REDSTONE_COAL = new BlockRedstoneCoal().setRegistryName("redstone_coal_block").setUnlocalizedName("redstoneCoalBlock");
     Block DYE4_COAL = new BlockDye4Coal().setRegistryName("dye4_coal_block").setUnlocalizedName("dye4CoalBlock");
-
+    Block SEVEN_COLOR_TORCH = new BlockSevenColorTorch().setRegistryName("seven_color_torch").setUnlocalizedName("sevenColorTorch");
 
     //ItemBlock IRON_COAL
 

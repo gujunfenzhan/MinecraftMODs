@@ -1,6 +1,7 @@
 package com.mhxks.morecoal.client;
 import com.mhxks.morecoal.common.CommonProxy;
 import com.mhxks.morecoal.init.ModBlockLoader;
+import com.mhxks.morecoal.init.ModEntityRenderLoader;
 import com.mhxks.morecoal.init.ModItemLoader;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -27,6 +28,8 @@ extends CommonProxy {
         registerBlockModel(ModBlockLoader.EMERALD_COAL);
         registerBlockModel(ModBlockLoader.REDSTONE_COAL);
         registerBlockModel(ModBlockLoader.DYE4_COAL);
+        registerBlockModel(ModBlockLoader.SEVEN_COLOR_TORCH);
+
     }
     public void registerItemModel(Item item) {
         ModelLoader.setCustomModelResourceLocation(item,0,new ModelResourceLocation(item.getRegistryName(),"inventory"));

@@ -1,7 +1,10 @@
 package com.mhxks.firstmod;
 
 import com.mhxks.firstmod.common.CommonProxy;
+import com.mhxks.firstmod.init.ModFluidLoader;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -26,11 +29,16 @@ public class FirstModMain {
     FMLInitializationEvent其次
     FMLPostInitializationEvent最后
      */
+    static{
+        FluidRegistry.enableUniversalBucket();
+    }
     @Mod.EventHandler
     public void pre(FMLPreInitializationEvent event){
         INSTANCE = this;
         //注册客户代理与服务代理
         MinecraftForge.EVENT_BUS.register(PROXY);
+        new ModFluidLoader(event);
+
         //主要注册物品，方块，生物等等
     }
     @Mod.EventHandler

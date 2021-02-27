@@ -19,6 +19,7 @@ public class ModFastBuild {
     public static final String MODID = "fastbuild";
     public static final String MODNAME = "FastBuild";
     public static final String VERSION = "1.0.0";
+
     @Mod.Instance
     public static ModFastBuild INSTANCE;
     private static SimpleNetworkWrapper NETWORK;

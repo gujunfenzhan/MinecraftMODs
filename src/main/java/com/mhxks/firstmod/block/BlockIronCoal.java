@@ -9,4 +9,5 @@ extends Block {
         //父类返回Material.ROCK 岩石材质
         super(Material.ROCK);
     }
+
 }

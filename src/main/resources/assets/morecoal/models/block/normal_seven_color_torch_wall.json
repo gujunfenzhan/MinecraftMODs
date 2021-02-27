@@ -1,0 +1,6 @@
+{
+    "parent": "morecoal:block/seven_color_torch_wall",
+    "textures": {
+        "torch": "morecoal:block/seven_color_torch_on"
+    }
+}

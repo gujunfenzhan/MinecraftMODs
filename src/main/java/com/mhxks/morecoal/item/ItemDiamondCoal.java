@@ -1,6 +1,7 @@
 package com.mhxks.morecoal.item;
 
 import com.google.common.collect.Multimap;
+import com.mhxks.morecoal.entity.EntityFire;
 import com.mhxks.morecoal.init.ModCreativeTabLoader;
 import com.mhxks.morecoal.init.ModItemLoader;
 import net.minecraft.client.resources.I18n;
@@ -10,11 +11,15 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Enchantments;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.NonNullList;
+import net.minecraft.util.*;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
@@ -47,6 +52,16 @@ implements ModFuelHandler{
         return multimap;
     }
 
+
+    @Override
+    public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+        if(!worldIn.isRemote){
+        EntityFire entityFire = new EntityFire(worldIn,player.posX,player.posY,player.posZ);
+        worldIn.spawnEntity(entityFire);
+
+        }
+        return super.onItemUse(player, worldIn, pos, hand, facing, hitX, hitY, hitZ);
+    }
 
     @Override
     public void getSubItems(CreativeTabs tab, NonNullList<ItemStack> items) {

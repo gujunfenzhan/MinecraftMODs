@@ -21,6 +21,8 @@ compileJava {
 }
 
 minecraft {
+    clientJvmArgs += "-Dfml.coreMods.load=com.mhxks.fastbuild.ExamplePlugin"
+    serverJvmArgs += "-Dfml.coreMods.load=com.mhxks.fastbuild.ExamplePluginn"
     version = "1.12.2-14.23.5.2768"
     runDir = "run"
     
@@ -73,5 +75,13 @@ processResources {
     // copy everything else except the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
+    }
+}
+jar {
+    manifest {
+        attributes([
+                "FMLCorePlugin": "com.mhxks.fastbuild.ExamplePlugin",
+                "FMLCorePluginContainsFMLMod": true
+        ])
     }
 }

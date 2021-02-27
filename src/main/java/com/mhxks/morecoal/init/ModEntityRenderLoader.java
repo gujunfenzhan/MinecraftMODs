@@ -1,6 +1,8 @@
 package com.mhxks.morecoal.init;
 
+import com.mhxks.morecoal.client.render.RenderFire;
 import com.mhxks.morecoal.client.render.RenderRedstoneCoal;
+import com.mhxks.morecoal.entity.EntityFire;
 import com.mhxks.morecoal.entity.EntityRedstoneCoal;
 import com.mhxks.morecoal.entity.EntityRenderFactory;
 import net.minecraft.client.renderer.entity.Render;
@@ -12,6 +14,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ModEntityRenderLoader {
     public ModEntityRenderLoader() {
         registerRenders();
+        registerEntityRender(EntityFire.class, RenderFire.class);
     }
 
     @SideOnly(Side.CLIENT)

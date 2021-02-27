@@ -2,6 +2,9 @@ package com.mhxks.morecoal.event;
 import com.mhxks.morecoal.MoreCoalMain;
 import com.mhxks.morecoal.init.ModItemLoader;
 import com.mhxks.morecoal.item.ModFuelHandler;
+import com.mhxks.morecoal.particle.BlueFire;
+import com.mhxks.morecoal.particle.FireFracture;
+import com.mhxks.morecoal.particle.SevenColorsFire;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -15,6 +18,7 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityFurnace;
 import net.minecraft.world.World;
+import net.minecraftforge.client.event.TextureStitchEvent;
 import net.minecraftforge.event.AnvilUpdateEvent;
 import net.minecraftforge.event.entity.player.AnvilRepairEvent;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
@@ -66,6 +70,11 @@ public class MoreCoalEvent {
             EnchantmentHelper.addRandomEnchantment(MoreCoalMain.random,event.getItemResult(),15,true);
         }
     }
-
+    @SubscribeEvent
+    public void TexturestitcherEventPre(TextureStitchEvent.Pre e) {
+        e.getMap().registerSprite(SevenColorsFire.TEXTURES);
+        e.getMap().registerSprite(FireFracture.TEXTURES);
+        e.getMap().registerSprite(BlueFire.TEXTURES);
+    }
 
 }

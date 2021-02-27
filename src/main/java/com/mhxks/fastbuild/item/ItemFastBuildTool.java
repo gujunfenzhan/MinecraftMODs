@@ -79,7 +79,8 @@ extends Item {
            // GuiIngameMenu guiIngameMenu = new GuiIngameMenu();
             //GuiOptions guiOptions = new GuiOptions(guiIngameMenu,mc.gameSettings);
             //mc.displayGuiScreen(new GuiVideoSettings(guiOptions,mc.gameSettings));
-            mc.displayGuiScreen(new GuiScreenFastBuildTool(itemStack,worldIn,playerIn));
+            //mc.displayGuiScreen(new GuiScreenFastBuildTool(itemStack,worldIn,playerIn));
+            //System.out.println(this.getClass().get);
             //System.out.println(worldIn.provider.getDimension());
         }
         return ActionResult.newResult(EnumActionResult.SUCCESS,itemStack);

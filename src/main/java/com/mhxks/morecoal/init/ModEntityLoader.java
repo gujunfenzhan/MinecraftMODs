@@ -1,6 +1,7 @@
 package com.mhxks.morecoal.init;
 
 import com.mhxks.morecoal.MoreCoalMain;
+import com.mhxks.morecoal.entity.EntityFire;
 import com.mhxks.morecoal.entity.EntityRedstoneCoal;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
@@ -9,6 +10,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 public class ModEntityLoader {
     private static int nextID = 0;
     public ModEntityLoader() {
+        registerEntity(EntityFire.class,"EntityFire",80,3,true);
         registerEntity(EntityRedstoneCoal.class,"RedstoneCoal",64,10,true);
     }
     public void registerEntity(Class<? extends Entity> entityClass, String name, int trackingRange,

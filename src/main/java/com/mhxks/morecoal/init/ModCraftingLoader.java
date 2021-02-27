@@ -51,6 +51,17 @@ public class ModCraftingLoader {
         stack2.grow(8);
         GameRegistry.addShapelessRecipe(getCraftRes(),group,stack2,Ingredient.fromStacks(new ItemStack(ModBlockLoader.DIAMOND_COAL)));
 
+        GameRegistry.addShapedRecipe(getCraftRes(),group,new ItemStack(ModBlockLoader.SEVEN_COLOR_TORCH)
+                ,"abc","def","ghg"
+                ,'a',ModItemLoader.IROM_COAL
+                ,'b',ModItemLoader.GOLD_COAL
+                ,'c',ModItemLoader.DIAMOND_COAL
+                ,'d',ModItemLoader.EMERALD_COAL
+                ,'e',ModItemLoader.REDSTONE_COAL
+                ,'f',ModItemLoader.DYE4_COAL
+                ,'h',Items.STICK
+                ,'g',Blocks.LAPIS_BLOCK);
+
     }
     public void registerMaterialCoal(Item material,Item result){
         registerTowItemToItem(material,Items.COAL,result);

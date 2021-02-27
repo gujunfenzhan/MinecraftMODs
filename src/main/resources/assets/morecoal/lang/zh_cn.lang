@@ -11,6 +11,7 @@ tile.emeraldCoalBlock.name=绿宝石煤炭块
 tile.goldCoalBlock.name=金煤炭块
 tile.ironCoalBlock.name=铁煤炭块
 tile.redstoneCoalBlock.name=红石煤炭块
+tile.sevenColorTorch.name=七彩火把
 
 itemGroup.more_coal=更多煤炭
 

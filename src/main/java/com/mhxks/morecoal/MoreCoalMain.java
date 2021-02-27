@@ -1,8 +1,11 @@
 package com.mhxks.morecoal;
 import com.mhxks.morecoal.common.CommonProxy;
+import com.mhxks.morecoal.entity.EntityFire;
 import com.mhxks.morecoal.event.MoreCoalEvent;
 import com.mhxks.morecoal.init.ModCraftingLoader;
+import com.mhxks.morecoal.init.ModEntityLoader;
 import com.mhxks.morecoal.init.ModEntityRenderLoader;
+import com.mhxks.morecoal.init.ModTileEntityLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -11,6 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 
 import java.util.Random;
 
@@ -20,7 +24,7 @@ public class MoreCoalMain {
     public static CommonProxy PROXY;
     public static final String MODID = "morecoal";
     public static final String MODNAME = "MoreCoal";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.1.1";
     @Mod.Instance
     public static MoreCoalMain INSTANCE;
     public static Random random = new Random();
@@ -31,12 +35,13 @@ public class MoreCoalMain {
         INSTANCE = this;
         MinecraftForge.EVENT_BUS.register(PROXY);
         MinecraftForge.EVENT_BUS.register(new MoreCoalEvent());
-
+        new ModEntityLoader();
         new ModEntityRenderLoader();
+
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
-
+        new ModTileEntityLoader();
     }
     @Mod.EventHandler
     public void post(FMLPostInitializationEvent event){
