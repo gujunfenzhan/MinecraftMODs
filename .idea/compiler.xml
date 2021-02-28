@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.yourname.modid.forge17101558.api" target="1.6" />
+      <module name="com.yourname.modid.forge17101558.main" target="1.6" />
+      <module name="com.yourname.modid.forge17101558.test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

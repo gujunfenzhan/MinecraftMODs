@@ -1,0 +1,109 @@
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava¾¯¸æ: [options] Î´Óë -source 1.6 Ò»ÆğÉèÖÃÒıµ¼ÀàÂ·¾¶
+D:\minecraft\forge17101558\build\sources\java\cn\beanflame\test\block\BlockMagicCircleBlock.java:60: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+     * ä»è¾¹ç•Œæ¡†æ± ä¸­è¿”å›ä¸?ä¸ªè¾¹ç•Œæ¡†ï¼ˆè¿™æ„å‘³ç?è¯¥æ¡†åœ¨æ¸…é™¤æ± ä»¥ä¾›é‡ç”¨ä¹‹åå¯ä»¥æ›´æ”¹ï¼?
+                    ^
+D:\minecraft\forge17101558\build\sources\java\cn\beanflame\test\block\BlockMagicCircleBlock.java:60: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+     * ä»è¾¹ç•Œæ¡†æ± ä¸­è¿”å›ä¸?ä¸ªè¾¹ç•Œæ¡†ï¼ˆè¿™æ„å‘³ç?è¯¥æ¡†åœ¨æ¸…é™¤æ± ä»¥ä¾›é‡ç”¨ä¹‹åå¯ä»¥æ›´æ”¹ï¼?
+                                  ^
+D:\minecraft\forge17101558\build\sources\java\cn\beanflame\test\block\BlockMagicCircleBlock.java:60: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+     * ä»è¾¹ç•Œæ¡†æ± ä¸­è¿”å›ä¸?ä¸ªè¾¹ç•Œæ¡†ï¼ˆè¿™æ„å‘³ç?è¯¥æ¡†åœ¨æ¸…é™¤æ± ä»¥ä¾›é‡ç”¨ä¹‹åå¯ä»¥æ›´æ”¹ï¼?
+                                                            ^
+D:\minecraft\forge17101558\build\sources\java\cn\beanflame\test\block\BlockMagicCircleBlock.java:82: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+     * æ ¹æ®å…¶å½“å‰çŠ¶æ€æ›´æ–°å—è¾¹ç•Œã€? Argsï¼šä¸–ç•Œï¼Œxï¼Œyï¼Œz
+                          ^
+D:\minecraft\forge17101558\build\sources\java\cn\beanflame\test\common\CommonProxy.java:21: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        // é­”æ³•é˜? Magic circle
+               ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:34: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.smite,new ItemStack(Items.rotten_flesh));//äº¡çµæ?æ‰?
+                                                                                          ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:34: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.smite,new ItemStack(Items.rotten_flesh));//äº¡çµæ?æ‰?
+                                                                                            ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:35: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.baneOfArthropods,new ItemStack(Items.spider_eye));//æˆªè‚¢æ?æ‰?
+                                                                                                   ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:35: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.baneOfArthropods,new ItemStack(Items.spider_eye));//æˆªè‚¢æ?æ‰?
+                                                                                                     ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:36: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.knockback,new ItemStack(Blocks.piston));//å‡»é??
+                                                                                       ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:36: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.knockback,new ItemStack(Blocks.piston));//å‡»é??
+                                                                                        ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:38: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.looting,new ItemStack(Items.gold_ingot));//æ‰è½ç‰©ç¿»å€?
+                                                                                             ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:43: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.field_151370_z,new ItemStack(Items.fishing_rod));//æ›´å¿«çš„é’“é±?
+                                                                                                     ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:46: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.punch,new ItemStack(Blocks.sticky_piston));//å¼“å‡»é€?
+                                                                                            ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:47: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.flame,new ItemStack(Items.blaze_powder));//å¼“é™„ç?
+                                                                                          ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:48: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        addWorkbenchEnchanting(Enchantment.infinity,new ItemStack(Items.arrow));//æ— é™å¼?
+                                                                                      ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:53: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+       // addWorkbenchEnchanting(Enchantment.,new ItemStack(Blocks.ICE));//å†°éœœè¡Œè??
+                                                                                ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:53: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+       // addWorkbenchEnchanting(Enchantment.,new ItemStack(Blocks.ICE));//å†°éœœè¡Œè??
+                                                                                 ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:60: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        int maxlevel = enchantment.getMaxLevel();//è·å–é™„é­”çš„æœ€é«˜ç­‰çº?
+                                                                ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:62: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+        for (int i =1; i <=maxlevel; i++) {//å¾ªç¯æ·»åŠ è¿™ä¸ªåˆæˆè¡?
+                                                          ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:63: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //åˆ›å»ºä¸?ä¸ªé’é‡‘çŸ³æ•°ç»„,æ•°ç»„çš„é•¿åº¦å†³å®šéœ€è¦å¤šå°‘ä¸ªé’é‡‘çŸ?
+                  ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:63: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //åˆ›å»ºä¸?ä¸ªé’é‡‘çŸ³æ•°ç»„,æ•°ç»„çš„é•¿åº¦å†³å®šéœ€è¦å¤šå°‘ä¸ªé’é‡‘çŸ?
+                                                   ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:65: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //Ingredient[] items = new Ingredient[i+2];//æœ?åè¦åŠ ä¹¦å’Œä»™äººæŒ
+                                                          ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:76: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //åˆ›å»ºä¸?ä¸ªé™„é­”ä¹¦ï¼Œç»™ä»–æ·»åŠ ç­‰çº?     è¾“å‡ºä¸?ä¸ªé™„é­”ä¹¦   éœ?è¦ä»™äººæŒï¼Œä¹¦
+                  ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:76: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //åˆ›å»ºä¸?ä¸ªé™„é­”ä¹¦ï¼Œç»™ä»–æ·»åŠ ç­‰çº?     è¾“å‡ºä¸?ä¸ªé™„é­”ä¹¦   éœ?è¦ä»™äººæŒï¼Œä¹¦
+                                   ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:76: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //åˆ›å»ºä¸?ä¸ªé™„é­”ä¹¦ï¼Œç»™ä»–æ·»åŠ ç­‰çº?     è¾“å‡ºä¸?ä¸ªé™„é­”ä¹¦   éœ?è¦ä»™äººæŒï¼Œä¹¦
+                                             ^
+D:\minecraft\forge17101558\build\sources\java\com\mhxks\we\init\ModCraftingLoader.java:76: ´íÎó: ±àÂëGBKµÄ²»¿ÉÓ³Éä×Ö·û
+            //åˆ›å»ºä¸?ä¸ªé™„é­”ä¹¦ï¼Œç»™ä»–æ·»åŠ ç­‰çº?     è¾“å‡ºä¸?ä¸ªé™„é­”ä¹¦   éœ?è¦ä»™äººæŒï¼Œä¹¦
+                                                        ^
+×¢: Ä³Ğ©ÊäÈëÎÄ¼şÊ¹ÓÃÁËÎ´¾­¼ì²é»ò²»°²È«µÄ²Ù×÷¡£
+×¢: ÓĞ¹ØÏêÏ¸ĞÅÏ¢, ÇëÊ¹ÓÃ -Xlint:unchecked ÖØĞÂ±àÒë¡£
+1 ¸ö¾¯¸æ
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData UP-TO-DATE
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.391 secs
