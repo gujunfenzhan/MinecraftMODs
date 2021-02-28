@@ -84,4 +84,4 @@ jar {
                 "FMLCorePluginContainsFMLMod": true
         ])
     }
-}
+} 
