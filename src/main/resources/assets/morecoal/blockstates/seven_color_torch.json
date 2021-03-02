@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up": { "model": "morecoal:normal_seven_color_torch" },
+        "facing=east": { "model": "morecoal:normal_seven_color_torch_wall" },
+        "facing=south": { "model": "morecoal:normal_seven_color_torch_wall", "y": 90 },
+        "facing=west": { "model": "morecoal:normal_seven_color_torch_wall", "y": 180 },
+        "facing=north": { "model": "morecoal:normal_seven_color_torch_wall", "y": 270 }
+    }
+}

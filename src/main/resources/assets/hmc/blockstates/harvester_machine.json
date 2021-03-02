@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=0": { "model": "hmc:harvester_machine" },
+    "facing=1": { "model": "hmc:harvester_machine", "y": 180 },
+    "facing=2":  { "model": "hmc:harvester_machine", "y": 270 },
+    "facing=3":  { "model": "hmc:harvester_machine", "y": 90 }
+  }
+}

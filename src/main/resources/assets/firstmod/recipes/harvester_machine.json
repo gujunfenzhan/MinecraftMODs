@@ -1,0 +1,29 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BDB"
+  ],
+  "key": {
+    "A": {
+      "item": "hmc:machine",
+      "data": 0
+    },
+    "B": {
+      "item": "minecraft:gold_ingot",
+      "data": 0
+    },
+    "C": {
+      "item": "minecraft:wheat_seeds",
+      "data": 0
+    },
+    "D": {
+      "item": "minecraft:diamond",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "hmc:harvester_machine"
+  }
+}

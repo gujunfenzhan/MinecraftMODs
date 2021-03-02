@@ -1,0 +1,5 @@
+tile.harvesterMachine.name=农场收割机
+tile.livestockMachine.name=畜牧机
+tile.machine.name=机器外壳
+harvesterMachine.1.desc=农场收割机
+itemGroup.hmc=农场收割机

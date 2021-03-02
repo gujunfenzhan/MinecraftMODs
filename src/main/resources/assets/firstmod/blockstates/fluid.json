@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "dichlorvos_fluid": {
+      "model": "forge:fluid",
+      "custom": {
+        "fluid": "dichlorvos_fluid"
+      }
+    },
+    "ice_black_tea_fluid": {
+      "model": "forge:fluid",
+      "custom": {
+        "fluid": "ice_black_tea_fluid"
+      }
+    }
+  }
+}
